@@ -1,0 +1,7 @@
+twilio
+fastapi
+uvicorn
+httpx
+pydantic
+pydantic-settings
+python-dotenv
