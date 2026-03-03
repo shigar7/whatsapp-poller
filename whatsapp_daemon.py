@@ -55,8 +55,7 @@ def run_daemon():
             # Process new messages in chronological order
             for msg in reversed(new_messages):
                 timestamp = msg.date_created.strftime("%Y-%m-%d %H:%M:%S")
-                log_entry = f"{timestamp},{msg.body}
-"
+                log_entry = f"{timestamp},{msg.body}\n"
                 
                 with open(INBOX_FILE, "a") as f:
                     f.write(log_entry)

@@ -9,3 +9,5 @@ ngrok
 data/
 inbox.txt
 outbox/
+daemon.log
+cricket_bot/bot.log
